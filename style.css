@@ -1,0 +1,72 @@
+/*
+Syntax for CSS
+
+Selector
+{
+	property: value;
+}
+*/
+/*
+in CSS we have SPECIFICITY RULE
+
+Higher Priority:
+1. ID;
+2. ELEMENT;
+3. CLASS;
+Least Priority: UNIVERSAL;
+
+*/
+
+/*UNIVERSAL SELECTOR*/
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+/*ELEMENT SELECTOR*/
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+/*ID SELECTOR*/
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	padding: 25px;
+	/*can be modified by padding property*/
+}
+
+.tools {
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width:  75%;
+	margin: 20px;
+	padding: 20px;
+}
+
+h2 {
+	color: #007bff;
+}
+
+nav{
+	height: 65px;
+}
